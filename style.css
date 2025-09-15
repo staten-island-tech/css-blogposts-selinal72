@@ -10,6 +10,7 @@ body, html *{
 
 h1 {
     font-size: 50px;
+    margin: 100px auto;
 }
 
 h2 {
@@ -33,16 +34,22 @@ img {
 }
 
 .card {
-    display: inline-block;
     max-width: 500px;
-    margin: 100px;
+    margin: 50px auto;
     padding: 100px 50px;
 }
 
 .container {
-    
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .img {
     max-width: 250px;
+}
+
+#heading {
+    background-color: aqua;
 }
